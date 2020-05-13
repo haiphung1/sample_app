@@ -10,8 +10,11 @@
   </head>
 
   <body>
-    <%= link_to t("language.en"), locale: "en" %>
-    <%= link_to t("language.vi"), locale: "vi" %>
+    <div class="ml-3">
+      <%= link_to t("language.en"), locale: "en" %>
+      <%= link_to t("language.vi"), locale: "vi" %>
+    </div>
+    <%= render "layouts/header" %>
     <%= yield %>
   </body>
 </html>
