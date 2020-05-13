@@ -1,0 +1,14 @@
+vi:
+  hello: "Xin chào"
+  static_pages:
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    sample_app: "Ứng dụng cơ bản"
+    title_home: "Đây là trang chủ cho"
+    title_help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+    content: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+    book_ruby: "Ruby on RailsTutorial"
+    rails: "Ruby on Rails Tutorial"
+  language:
+    vi: "Tiếng việt"
+    en: "Tiếng anh"

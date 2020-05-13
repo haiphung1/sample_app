@@ -31,3 +31,15 @@
 
 en:
   hello: "Hello world"
+  static_pages:
+    home: "Home"
+    help: "Help"
+    sample_app: "Sample app"
+    title_home: "This is the home page for the"
+    title_help: "Get help on the Ruby on Rails Tutorial at the"
+    content: "To get help on this sample app, see the"
+    book_ruby: "Ruby on RailsTutorial"
+    rails: "Ruby on Rails Tutorial"
+  language:
+    vi: "Vietnamese"
+    en: "English"
