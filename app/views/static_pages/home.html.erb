@@ -1,6 +1,12 @@
 <% provide :title, t("static_pages.home") %>
-<h1><%= t("static_pages.sample_app") %></h1>
-<p>
-  <%= t("static_pages.title_home") %>
-  <%= link_to t("static_pages.rails"), Settings.url.rails_tutorial %>
-</p>
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <h1><%= t "static_pages.sample_app" %></h1>
+      <p>
+        <%= t "static_pages.title_home" %>
+        <%= link_to t("static_pages.rails"), Settings.url.rails_tutorial %>
+      </p>
+    </div>
+  </div>
+</div>

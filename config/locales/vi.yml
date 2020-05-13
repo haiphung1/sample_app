@@ -12,3 +12,6 @@ vi:
   language:
     vi: "Tiếng việt"
     en: "Tiếng anh"
+  auth:
+    sign_up: "Đăng ký"
+    login: "Đăng nhập"

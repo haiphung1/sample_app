@@ -43,3 +43,6 @@ en:
   language:
     vi: "Vietnamese"
     en: "English"
+  auth:
+    sign_up: "Sign up"
+    login: "Login"
