@@ -9,6 +9,7 @@ vi:
     content: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
     book_ruby: "Ruby on RailsTutorial"
     rails: "Ruby on Rails Tutorial"
+    base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   language:
     vi: "Tiếng việt"
     en: "Tiếng anh"

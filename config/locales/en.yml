@@ -40,6 +40,7 @@ en:
     content: "To get help on this sample app, see the"
     book_ruby: "Ruby on RailsTutorial"
     rails: "Ruby on Rails Tutorial"
+    base_title: "Ruby on Rails Tutorial Sample App"
   language:
     vi: "Vietnamese"
     en: "English"
