@@ -16,6 +16,7 @@ class UsersController < ApplicationController
 
     if @user.save
       flash[:success] = t "welcome"
+      log_in @user
       redirect_to root_url
     else
       flash[:fail] = t "errors.the_form_contains"

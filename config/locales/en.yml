@@ -44,16 +44,21 @@ en:
     book_ruby: "Ruby on RailsTutorial"
     rails: "Ruby on Rails Tutorial"
     base_title: "Ruby on Rails Tutorial Sample App"
+    account: "Account"
+    new_user: "New user"
+    signup_now: "Sign up now!"
   language:
     vi: "Vietnamese"
     en: "English"
   auth:
     sign_up: "Sign up"
     login: "Login"
+    logout: "Log out"
     name: "Name"
     email: "Email"
     password: "Password"
     confirm_password: "Confirm password"
+    invalid_email_password_combination: "Email or password is incorrect"
   errors:
     the_form_contains: "The Form Contains,"
     error: "error"

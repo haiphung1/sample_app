@@ -13,16 +13,21 @@ vi:
     book_ruby: "Ruby on RailsTutorial"
     rails: "Ruby on Rails Tutorial"
     base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+    account: "Tài khoản"
+    new_user: "Tài khoản mới"
+    signup_now: "Tạo tài khoản!"
   language:
     vi: "Tiếng việt"
     en: "Tiếng anh"
   auth:
     sign_up: "Đăng ký"
     login: "Đăng nhập"
+    logout: "Đăng xuất"
     name: "Tên"
     email: "Email"
     password: "Mật khẩu"
     confirm_password: "Xác nhận mật khẩu"
+    invalid_email_password_combination: "Email hoặc mật khẩu không chính xác"
   errors:
     the_form_contains: "Lỗi khi nhập dữ liệu,"
     error: "lỗi"
