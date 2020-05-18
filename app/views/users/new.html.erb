@@ -1,0 +1,30 @@
+<% provide :title, t("auth.sign_up") %>
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <h1 class="text-center"><%= t "auth.sign_up" %></h1>
+      <%= form_for @user, url: signup_path do |f| %>
+        <%= render partial: "error", locals: {user: @user} %>
+        <div class="form-group">
+          <%= f.label t "auth.name" %>
+          <%= f.text_field :name, class: "form-control" %>
+        </div>
+        <div class="form-group">
+          <%= f.label t "auth.email" %>
+          <%= f.text_field :email, class: "form-control" %>
+        </div>
+        <div class="form-group">
+          <%= f.label t "auth.password" %>
+          <%= f.password_field :password, class: "form-control" %>
+        </div>
+        <div class="form-group">
+          <%= f.label t "auth.confirm_password" %>
+          <%= f.password_field :password_confirmation, class: "form-control" %>
+        </div>
+        <div class="form-group text-center">
+          <%= f.submit t("auth.sign_up"), class: "btn-lg btn-block btn btn-primary text-center" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
