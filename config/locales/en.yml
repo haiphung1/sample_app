@@ -30,10 +30,13 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  welcome: "Welcome to the sample app!"
   static_pages:
     home: "Home"
     help: "Help"
+    about: "About"
+    contact: "Contact"
+    new: "New"
     sample_app: "Sample app"
     title_home: "This is the home page for the"
     title_help: "Get help on the Ruby on Rails Tutorial at the"
@@ -47,3 +50,11 @@ en:
   auth:
     sign_up: "Sign up"
     login: "Login"
+    name: "Name"
+    email: "Email"
+    password: "Password"
+    confirm_password: "Confirm password"
+  errors:
+    the_form_contains: "The Form Contains,"
+    error: "error"
+    user: "User not found!"

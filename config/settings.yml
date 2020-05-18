@@ -6,3 +6,4 @@ validation:
   max_name: 25
   max_email: 255
 VALID_EMAIL_REGEX: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+not_found: "The page you were looking for doesn't exist." 

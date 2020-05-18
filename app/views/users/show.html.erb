@@ -1,0 +1,26 @@
+<% provide :title, @user.name %>
+<div class="container-fulid mt-5">
+  <div class="row justify-content-center">
+    <div class="col-4">
+      <h1>
+        <%= gravatar_for @user %>
+        <%= @user.name %>
+      </h1>
+    </div>
+  </div><hr>
+  <div class="row">
+    <div class="col-12">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <%= link_to t("static_pages.about"), "#", class: "nav-link active" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to t("static_pages.contact"), "#", class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to t("static_pages.new"), "#", class: "nav-link" %>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
