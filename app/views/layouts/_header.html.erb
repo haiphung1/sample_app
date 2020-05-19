@@ -7,8 +7,21 @@
     <li class="nav-item">
       <%= link_to t("static_pages.help"), help_path, class: "nav-link text-light" %>
     </li>
-    <li class="nav-item">
-      <%= link_to t("auth.sign_up"), signup_path, class: "nav-link text-light" %>
-    </li>
+    <% if logged_in? %>
+      <div class="dropdown">
+        <%= link_to "#", class: "btn text-light dropdown-toggle", "data-toggle": "dropdown" do %>
+          <%= t "static_pages.account" %>
+        <% end %>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li>
+            <%= link_to t("auth.logout"), logout_path, method: :delete, class: "dropdown-item" %>
+          </li>
+        </div>
+      </div>
+    <% else %>
+      <li class="nav-item">
+        <%= link_to t("auth.login"), login_path, class: "nav-link text-light" %>
+      </li>
+    <% end %>
   </ul>
 </nav>
