@@ -59,6 +59,7 @@ en:
     password: "Password"
     confirm_password: "Confirm password"
     invalid_email_password_combination: "Email or password is incorrect"
+    remember_me: "Remember me on this computer"
   errors:
     the_form_contains: "The Form Contains,"
     error: "error"

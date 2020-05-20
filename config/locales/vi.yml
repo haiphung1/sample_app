@@ -28,6 +28,7 @@ vi:
     password: "Mật khẩu"
     confirm_password: "Xác nhận mật khẩu"
     invalid_email_password_combination: "Email hoặc mật khẩu không chính xác"
+    remember_me: "Lưu mật khẩu"
   errors:
     the_form_contains: "Lỗi khi nhập dữ liệu,"
     error: "lỗi"
