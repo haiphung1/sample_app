@@ -1,0 +1,14 @@
+<% provide :title, t("static_pages.all_users") %>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="text-center"><%= t "static_pages.all_users" %></h1>
+      <ul class="list-group list-group-flush">
+        <%= render @users %>
+      </ul>
+      <div class="pagy mt-3">
+        <%= paginate @users, theme: "twitter-bootstrap-4" %>
+      </div>
+    </div>
+  </div>
+</div>

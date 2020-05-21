@@ -16,6 +16,18 @@ vi:
     account: "Tài khoản"
     new_user: "Tài khoản mới"
     signup_now: "Tạo tài khoản!"
+    edit: "Chỉnh sửa trang cá nhân"
+    update_profile: "Cập nhập trang cá nhân"
+    save_changes: "Lưu thay đổi"
+    change: "Thay đổi"
+    profile: "Trang cá nhân"
+    setting: "Cài đặt"
+    all_users: "Danh sách user"
+    delete: "Xóa"
+    confirm: "Bạn có muốn thực hiện không?"
+    user_delete: "Xóa user thành công"
+    delete_fail: "Xóa user không thành công"
+    update_fail: "Cập nhập không thành công"
   language:
     vi: "Tiếng việt"
     en: "Tiếng anh"
@@ -29,6 +41,7 @@ vi:
     confirm_password: "Xác nhận mật khẩu"
     invalid_email_password_combination: "Email hoặc mật khẩu không chính xác"
     remember_me: "Lưu mật khẩu"
+    please_login: "Đăng nhập để thực hiện"
   errors:
     the_form_contains: "Lỗi khi nhập dữ liệu,"
     error: "lỗi"
@@ -48,3 +61,4 @@ vi:
               blank: "không được bỏ trống"
             password_confirmation:
               confirmation: "không khớp với mật khẩu"
+  not_found: "Trang bạn đang tìm kiếm không tồn tại."

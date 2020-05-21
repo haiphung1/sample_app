@@ -14,6 +14,10 @@ gem "bootstrap", "~> 4.4.1"
 gem "mysql2"
 gem "bcrypt", "3.1.11"
 gem "jquery-rails", "4.3.1"
+gem "faker", "1.7.3"
+gem "pry-rails"
+gem "kaminari"
+gem "bootstrap4-kaminari-views"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
