@@ -78,3 +78,12 @@ en:
     error: "error"
     user: "User not found!"
   not_found: "The page you were looking for doesn't exist."
+  mailer:
+    hi: "Hi"
+    welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+    activate: "Activate"
+    account_activation: "Account activation"
+    account_activated: "Account activated!"
+    invalid: "Invalid activation link"
+    check_email: "Account not activated. Check your email for the activation link."
+    check_you_email: "Please check your email to activate your account."

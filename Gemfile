@@ -18,6 +18,7 @@ gem "faker", "1.7.3"
 gem "pry-rails"
 gem "kaminari"
 gem "bootstrap4-kaminari-views"
+gem "figaro"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
