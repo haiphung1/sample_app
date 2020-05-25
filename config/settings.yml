@@ -9,3 +9,4 @@ validation:
 VALID_EMAIL_REGEX: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 pagination:
   items: 10
+DEFAULT_EMAIL: "noreply@example.com"

@@ -1,0 +1,11 @@
+<% provide :title, t("auth.forgot_password") %>
+<div class="row justify-content-center">
+  <div class="col-md-6">
+    <h1><%= t "auth.forgot_password" %></h1>
+    <%= form_for :password_reset, url: password_resets_path do |f| %>
+    <%= f.label :email %>
+    <%= f.email_field :email, class: "form-control" %>
+    <%= f.submit t("auth.submit"), class: "btn btn-primary mt-2" %>
+    <% end %>
+  </div>
+</div>
