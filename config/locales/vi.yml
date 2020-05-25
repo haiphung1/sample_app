@@ -62,3 +62,12 @@ vi:
             password_confirmation:
               confirmation: "không khớp với mật khẩu"
   not_found: "Trang bạn đang tìm kiếm không tồn tại."
+  mailer:
+    hi: "Xin chào"
+    welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
+    activate: "Kích hoạt"
+    account_activation: "Kích hoạt tài khoản"
+    account_activated: "Tài khoản được kích hoạt!"
+    invalid: "Liên kết kích hoạt không hợp lệ!"
+    check_email: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn cho các liên kết kích hoạt."
+    check_you_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
