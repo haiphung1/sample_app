@@ -19,6 +19,10 @@ gem "pry-rails"
 gem "kaminari"
 gem "bootstrap4-kaminari-views"
 gem "figaro"
+gem "image_processing"
+gem "mini_magick"
+gem "active_storage_validations"
+gem "i18n-js"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]

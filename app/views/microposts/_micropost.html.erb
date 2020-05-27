@@ -1,0 +1,17 @@
+<li class="list-group-item", id="micropost-<%= micropost.id %>">
+  <%= link_to gravatar_for(micropost.user), micropost.user %>
+  <span class="user"><%= link_to micropost.user_name, micropost.user %></span>
+  <span class="content">
+    <%= micropost.content %>
+    <div class="mt-3 text-center">
+      <%= image_tag micropost.image if micropost.image.attached? %>
+    </div>
+  </span><br>
+  <span class="timestamp float-right">
+    <%= t "micropost.posted" %> <%= time_ago_in_words micropost.created_at %> <%= t "micropost.ago" %>
+    <% if current_user? micropost.user %>
+    <%= link_to t("static_pages.delete"), micropost, method: :delete,
+      data: {confirm: t("static_pages.confirm") } %>
+    <% end %>
+  </span><br>
+</li>

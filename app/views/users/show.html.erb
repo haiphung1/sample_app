@@ -1,11 +1,22 @@
 <% provide :title, @user.name %>
-<div class="container-fulid mt-5">
-  <div class="row justify-content-center">
+<div class="container">
+  <div class="row">
     <div class="col-4">
-      <h1>
+      <p>
         <%= gravatar_for @user %>
         <%= @user.name %>
-      </h1>
+      </p>
+    </div>
+    <div class="col-8 mt-3">
+      <% if @user.microposts.any? %>
+        <h1><%= t "micropost.micropost" %> (<%= @user.microposts.count %>)</h1>
+        <ul class="list-group list-group-flush">
+          <%= render @microposts %>
+        </ul>
+      <% end %>
+      <div class="pagy mt-3">
+        <%= paginate @microposts, theme: "twitter-bootstrap-4" %>
+      </div>
     </div>
   </div><hr>
   <div class="row">

@@ -17,3 +17,6 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 require ("jquery")
 require ("bootstrap")
+
+import I18n from "i18n-js"
+window.I18n = I18n
