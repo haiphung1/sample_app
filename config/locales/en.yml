@@ -115,3 +115,8 @@ en:
     deleted: "Micropost deleted"
     format_image: "Image must be a valid image format"
     size_max_image: "Image should be less than 5MB"
+  follow:
+    follow: "Follow"
+    unfollow: "Unfollow"
+    following: "Following"
+    followers: "Followers"

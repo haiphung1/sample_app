@@ -1,0 +1,27 @@
+<% @user ||= current_user %>
+<div class="row">
+  <div class="col-5">
+    <div class="d-flex flex-column bd-highlight mb-3">
+      <div class="p-2 bd-highlight">
+        <%= link_to following_follow_path(@user) do %>
+          <strong id="following" class="stat">
+            <%= @user.following.count %>
+          </strong>
+          <%= t "follow.following" %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="d-flex flex-column bd-highlight mb-3">
+      <div class="p-2 bd-highlight">
+        <%= link_to followers_follow_path(@user) do %>
+          <strong id="following" class="stat">
+            <%= @user.followers.count %>
+          </strong>
+          <%= t "follow.followers" %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
