@@ -8,6 +8,7 @@
       </p>
     </div>
     <div class="col-8 mt-3">
+      <%= render "follow_form" if logged_in? %>
       <% if @user.microposts.any? %>
         <h1><%= t "micropost.micropost" %> (<%= @user.microposts.count %>)</h1>
         <ul class="list-group list-group-flush">
